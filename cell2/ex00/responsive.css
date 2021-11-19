@@ -1,0 +1,4 @@
+
+table, tr {border: 1px solid black; width: 100%;}
+tr > th:first-child {background-color: blueviolet; color: white;}
+tr:nth-child(1) {background-color: yellowgreen;}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--
+		<link rel="stylesheet" href="cellule1-4.css">
+		<link rel="javascript" href="cellule1-4.js">
+-->
+<style>
+body { background-color: pink; }
+h1 { color: white; font-size: 250%; text-align: center; }
+.fc-tiendas { /* .tienda1 .tienda2 { */ display: flex; flex-direction: row; justify-content: center; }
+.fi-tienda1  { display: flex; flex-direction: column; }
+.fi-tienda2  { display: flex; flex-direction: column; }
+#derecha { float: right; font-style: oblique; font-family: monospace}
+</style>
+    <title>Básico</title>
+</head>
+<body>
+	<main class="flex-container">
+        <h1> &curren; Título en blanco &curren; </h1>
+
+        <div class="fc-tiendas">
+
+            <div class="fi-tienda1">
+				<img id="itienda1" src="../images/tienda1.jpeg" width="100%" height="100%"/>
+                <a href="https://hiedrafloristeria.com/">Tienda 1</a>
+            </div>
+
+            <div class="fi-tienda2">
+				<img id="itienda2" src="../images/tienda2.jpeg" width="100%" height="100%"/>
+                <a href="https://www.sumendi.org/">Tienda 2</a>
+            </div>
+
+        </div>
+    <hr> 
+    <p id="data">
+        <!-- ALINEADO A LA DERECHA -->
+        <!-- CURSIVA MONOSPACE SÍMBOLO-COPYRIGHT MI-NOMBRE-USUARIO CURRENT-YEAR-->
+    </p>
+    <div id="derecha">
+        <p>© vgonzale 2021</p>
+    </div> 
+    </main>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body, html {
+	overflow: hidden;
+}
+
+* {
+	margin:0;
+	padding: 0;
+}
+
+.parallax-content { 
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	perspective: 2px;
+}
+
+.parallax-section {
+	position: relative;
+	padding: 30vh 0;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+.parallax-img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+
+.bg {
+  background: rgb(0,0,0);
+}
+
+/**/
+
+.parallax-content {
+	display:gg grid;
+	grid-template/columns: repeat(12,1fr);
+	position: relative;
+}

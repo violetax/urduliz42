@@ -1,0 +1,54 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.parallax-jpg {
+
+
+.fitem {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dimage1 {
+	 background-image: url("../../images/fencing.jpg");
+ 	 min-height: 100%;
+}
+
+#dimage2 {
+	 background-image: url(".../../images/conditioning.jpg");
+ 	 min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.allblack { 
+    height: 350px; 
+    width: 100%; 
+    background-color: black; 
+    margin-top: 800px;
+    margin-bottom: 800px;
+} 
+
