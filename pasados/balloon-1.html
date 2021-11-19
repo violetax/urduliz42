@@ -1,0 +1,36 @@
+<html><head><style type="text/css">
+    #circle {
+    background: red;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+</style>
+</head>
+<body>
+    <div id="circle" onclick="cambiotamano(); cambiocolor()"></div>
+    <script>
+        var si=200;
+        function cambiotamano(){
+            si=si+10;
+            var dd= document.getElementById('circle');
+            dd.style.width= si+"px";
+            dd.style.height= si+"px";
+            if (si>420){explotar();}
+        }
+        var i = 0;
+        function cambiocolor(){
+            var doc = document.getElementById('circle');
+            var color = ["green", "blue", "red"]
+            doc.style.backgroundColor= color[i];
+            i= (i+1) % color.length;
+        }
+
+        function explotar(){
+            document.getElementById('circle').style.width= "200px";
+            document.getElementById('circle').style.height= "200px";
+        }
+    </script>
+</body></html>
