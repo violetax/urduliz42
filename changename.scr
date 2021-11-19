@@ -1,8 +1,0 @@
-#!/bin/bash
-
-mv "es.subject (1).pdf"	"el3-1.pdf"
-mv "es.subject (2).pdf"	"el3-2.pdf"
-mv "es.subject (3).pdf"	"el3-3.pdf"
-mv "es.subject (4).pdf"	"el3-4.pdf"
-mv "es.subject (5).pdf"	"el4.pdf"
-mv "es.subject.pdf"	"despuesdeparallax.pdf"
