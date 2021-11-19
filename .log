@@ -40,7 +40,7 @@ Paso a to-do junto:
 
 - cuando el mouse está sobre el globo y se va,  al irse se reduce el tamanxo 5px, solo hasta el tope mínimo de 200px, y el color cambia en secuencia inversa
 
-3.	It’s over 9000 - calc.html, HCJ
+4.	It’s over 9000 - calc.html, HCJ
 
 - CREAR UNA CALCULADORA BÁSICA - NO SE VALEN BIBLIOTECAS
 
@@ -55,7 +55,7 @@ Paso a to-do junto:
 **** división y modulo 0 muestran mensaje de alerta: : "It's over 9000!". Y el resultado también se muestra en un console.log()
 **** Cada 30s aparece mensaje de alerta: "Please use me!!!!"
 
-4. TO DO - index.html, to-do.js
+5. TO DO - index.html, to-do.js
 
 *** crear una MINIGESTIÓN DE TAREAS LOCALES ***
 ** El disenxo no importa mientras se respete la estructura
@@ -66,4 +66,16 @@ Paso a to-do junto:
 - para eliminar una tarea: clicarla y se abre la "VENTANA DE CONFIGURACIÓN" que PREGUNTA si eliminar (eliminar, NO ocultar)
 - GUARDADAR LA LISTA COMO UNA COOKIE - si al cerrar el navegador hay algún to-do, la lista se carga y muestra en el div ft_list
 
-4. 
+6. RUSH
+
+- CREAR UNA MINI-SITE CON UN RESUMEN PARA IR A DOS CVS CON SENDOS ENLACES⇒ a one-page site (see in google)
+- tiene que ser RESPONSIVE y BONITA (ayuda con Bootstrap)
+- tiene que contener al menos:
+	- una barra de navegación (fija en la página): con varios enlaces que apunten al menos a 3 partes del CV
+	- Cada CV tiene que tener 3 partes:
+		1) foto, nombre y cargo
+		2) experiencias y habilidades
+		3) enlaces de contacto
+
+
+
