@@ -12,4 +12,58 @@ cell1/ex03
 cell1/ex04
 cell1/ex04
 
+# Fri Nov 19 11:38:12 CET 2021
 
+Paso a to-do junto: 
+
+1.	TARJETA DE PERFIL - card.html, card.css
+
+- título con encabezado
+- tabla invisible para alinear la información
+- foto de perfil
+- login debajo de la foto
+- descripción de 2 o 3 palabras debajo del login
+- iconos de redes sociales en una línea + enlace
+- boton clicable con el texto contacto
+
+2.	CAMBIAR EL FONDO - background.html/css, * (js??? not jquery)
+
+- página web con un botón simple, que al clicarlo, se cambia el color del fondo de la página
+
+3.	JAVASCRIPT - balloon.html; HTML, CSS, JS
+
+- Crear en html/css un div de 200px x 200px con un fondo de color rojo y bordes redondeados → ese div es el globo
+
+- al clicarlo: el tamanxo crece 10px y cambia de color en secuencia: rojo a verde a axul y a rojo otra vez etc
+
+- cuando alcanza 420px explota y regresa a su tamamxo original
+
+- cuando el mouse está sobre el globo y se va,  al irse se reduce el tamanxo 5px, solo hasta el tope mínimo de 200px, y el color cambia en secuencia inversa
+
+3.	It’s over 9000 - calc.html, HCJ
+
+- CREAR UNA CALCULADORA BÁSICA - NO SE VALEN BIBLIOTECAS
+
+1o/ MODELAR LA CALC: está compuesta así: 
+
+- campo text que representa el miembro izquierdo del cálculo
+- campo select con una lista de operadores como opciones: +,-,*,/,%
+- campo text que representa el miembro derecho del cálculo
+- campo submit coon el valor "Try me!"
+
+**** ambos campos de entrada: solo enteros positivos, y en caso contrario: mensaje de error
+**** división y modulo 0 muestran mensaje de alerta: : "It's over 9000!". Y el resultado también se muestra en un console.log()
+**** Cada 30s aparece mensaje de alerta: "Please use me!!!!"
+
+4. TO DO - index.html, to-do.js
+
+*** crear una MINIGESTIÓN DE TAREAS LOCALES ***
+** El disenxo no importa mientras se respete la estructura
+
+- la lista de tareas es un DIV con valor ft_list que contiene la lista de to do
+- cada "to do" es un propio div contenido en la lista → al crearse uno, se coloca al principio de la lista: esto es MANIPULACIÓN DEL DOM
+- crear un botón de creación llamado "new" que al clicarse abre una "VENTANA DE TEXTO" (VER FUNCIÓN PROMPT) para anxadir un nuevo to-do
+- para eliminar una tarea: clicarla y se abre la "VENTANA DE CONFIGURACIÓN" que PREGUNTA si eliminar (eliminar, NO ocultar)
+- GUARDADAR LA LISTA COMO UNA COOKIE - si al cerrar el navegador hay algún to-do, la lista se carga y muestra en el div ft_list
+
+4. 

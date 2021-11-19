@@ -1,0 +1,5 @@
+# GITTTTTTTTTTT
+alias hogi="cat $HOME/discovery_piscine/.hogi"
+alias gita='echo "CHOOSE WHAT TO ADD!!!!!!!"; git add '
+alias gico='git commit -m "'
+alias gipu='git branch -M main; git push -u origin main'
